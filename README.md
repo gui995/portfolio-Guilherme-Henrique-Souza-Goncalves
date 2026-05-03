@@ -65,10 +65,10 @@ Disponível  : Para projetos, estágios e colaborações
 
 ### 🌐 Desenvolvimento Web
 | Projeto | Descrição | Tecnologias | Link |
+| :--- | :--- | :---: | :---: | | Projeto | Descrição | Tecnologias | Link |
 | :--- | :--- | :---: | :---: |
-| **Landing Page Institucional** | Página web completa com seções de apresentação, serviços e contato | HTML5, CSS3 | [Ver Projeto](./web-landing-page/) |
-| **Formulário de Cadastro** | Formulário responsivo com validação e estilização profissional | HTML5, CSS3 | [Ver Projeto](./web-formulario-cadastro/) |
-| **Página de Portfólio Pessoal** | Este próprio portfólio como projeto web | HTML5, CSS3 | [Ver Projeto](./web-portfolio/) |
+| **Maternidade Inteligente** | Site de apoio informativo para mães com assistente virtual, tópicos sobre amamentação, sono, puerpério e saúde emocional. | HTML5, CSS3 | [Ver Projeto](https://github.com/gui995/Maternidade-Inteligente) |
+
 
 ### 🗄️ Infraestrutura & Documentação
 | Projeto | Descrição | Link |
