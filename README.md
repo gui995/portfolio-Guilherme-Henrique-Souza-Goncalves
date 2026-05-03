@@ -68,53 +68,6 @@ Disponível  : Para projetos, estágios e colaborações
 | **Maternidade Inteligente** | Site de apoio informativo para mães com assistente virtual, tópicos sobre amamentação, sono, puerpério e saúde emocional. | HTML5, CSS3 | [Ver Projeto](https://github.com/gui995/Maternidade-Inteligente) |
 
 
-### 🗄️ Infraestrutura & Documentação
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| **Documentação de Gestão de Identidades** | Guia prático de administração de usuários no Azure AD / Entra ID | [Ver Projeto](./docs-azure-ad/) |
-| **Scripts de Automação (Autopilot)** | Configurações e políticas de provisionamento via Microsoft Intune | [Ver Projeto](./docs-intune-autopilot/) |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Guilherme's GitHub Stats](https://github-readme-stats.vercel.app/api?username=gui995&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gui995&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=gui995&theme=tokyonight&hide_border=true&background=0D1117&ring=0078D4&fire=0078D4&currStreakLabel=0078D4)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🏗️ Estrutura do Repositório
-
-```
-Portfolio-Guilherme-Goncalves/
-│
-├── README.md                      ← Você está aqui 📍
-│
-├── web-landing-page/              ← Projeto HTML/CSS: Landing Page
-│   ├── index.html
-│   ├── style.css
-│   └── README.md
-│
-├── web-formulario-cadastro/       ← Projeto HTML/CSS: Formulário
-│   ├── index.html
-│   ├── style.css
-│   └── README.md
-│
-├── docs-azure-ad/                 ← Documentação: Azure AD / Entra ID
-│   └── README.md
-│
-└── docs-intune-autopilot/         ← Documentação: Intune & Autopilot
-    └── README.md
-```
-
----
 
 ## 💼 Experiência Profissional em Destaque
 
