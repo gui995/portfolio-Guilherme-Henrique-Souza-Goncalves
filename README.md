@@ -63,6 +63,28 @@ Disponível  : Para projetos, estágios e colaborações
 
 ## 📂 Portfólio de Projetos
 
+
+# Relatório Técnico: Algoritmo de Auditoria de Vendas e Teste de Estresse
+
+## 🧐 O Conceito: Discrepância e Normalização
+Este projeto simula um sistema bancário que busca por **Outliers** (valores atípicos). 
+- **O Problema:** Uma única venda muito alta pode distorcer a média, mascarando falhas ou fraudes.
+- **A Solução:** Implementamos uma lógica de **Normalização**, onde o sistema ignora o "ruído" para focar na massa crítica dos dados.
+
+## ⚖️ Lógica de Negócio: Margem de Tolerância
+O algoritmo utiliza o conceito de **Materialidade**. Em auditoria, não investigamos cada centavo se o custo da investigação for maior que o erro. O sistema foca o esforço computacional onde o risco é real.
+
+## 🛠️ O Código e a "Vulnerabilidade Consciente"
+O script realiza o casting de dados (tratando vírgulas e pontos) e processa os alertas de quarentena.
+> **Nota de Engenharia:** Durante o desenvolvimento, foi identificado que o uso de `global LIMITE_SEGURANCA` é uma vulnerabilidade. Em sistemas reais, esses limites devem ser **Encapsulados** para evitar que scripts maliciosos alterem as regras de auditoria na memória compartilhada.
+
+## 🧪 Teste de Estresse (Cenário Real)
+- **Entradas:** 100, 200, 5000.
+- **Resultado:** Média de R$ 1.766,66.
+- **Análise Crítica:** O sistema não ativou a quarentena, revelando que o multiplicador de sensibilidade (5x) pode precisar de recalibração para cenários bancários mais rígidos.
+
+
+
 ### 🌐 Desenvolvimento Web
 | Projeto | Descrição | Tecnologias | Link |
 | **Maternidade Inteligente** | Site de apoio informativo para mães com assistente virtual, tópicos sobre amamentação, sono, puerpério e saúde emocional. | HTML5, CSS3 |
