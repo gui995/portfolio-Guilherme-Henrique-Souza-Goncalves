@@ -11,4 +11,5 @@ O script processa uma estrutura hierárquica complexa (Matriz e Filiais) para co
 - **Args e Kwargs:** Flexibilidade total para passar múltiplos departamentos a serem ignorados e configurações de câmbio.
 - **Formatação de Relatórios:** Saída visual organizada no terminal com bordas e alinhamento de texto (F-strings).
 
-Link do repositório: [https://github.com/gui995/-Auditoria-de-Or-amentos-Corporativos-Python-](https://github.com/gui995/-Auditoria-de-Or-amentos-Corporativos-Python-)
+Link do repositório: https://github.com/gui995/-Auditoria-de-Or-amentos-Corporativos-Python-
+
