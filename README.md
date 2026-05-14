@@ -65,8 +65,7 @@ Disponível  : Para projetos, estágios e colaborações
 
 ### 🌐 Desenvolvimento Web
 | Projeto | Descrição | Tecnologias | Link |
-| **Maternidade Inteligente** | Site de apoio informativo para mães com assistente virtual, tópicos sobre amamentação, sono, puerpério e saúde emocional. | HTML5, CSS3 | [Ver Projeto](https://github.com/gui995/Maternidade-Inteligente) |
-
+| **Maternidade Inteligente** | Site de apoio informativo para mães com assistente virtual, tópicos sobre amamentação, sono, puerpério e saúde emocional. | HTML5, CSS3 |
 
 
 ## 💼 Experiência Profissional em Destaque
