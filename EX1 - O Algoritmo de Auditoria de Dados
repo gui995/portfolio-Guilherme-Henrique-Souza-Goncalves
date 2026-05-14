@@ -1,1 +1,35 @@
 
+O Algoritmo de Auditoria de Dados 
+O que é Discrepância de Dados (Outliers): Como um único valor muito alto ou 
+muito baixo pode "mentir" sobre a média de um grupo? 
+Um outlier (valor atípico) é um ponto de dado que se afasta drasticamente da 
+"nuvem" principal de informações de um conjunto. É uma observação que não 
+segue o padrão estatístico do restante da amostra. 
+A "mentira" acontece porque a Média Aritmética é uma medida de equilíbrio de 
+massa, e não de frequência. Ela tenta redistribuir o valor total de forma igualitária, 
+independentemente de quão desproporcionais sejam as partes. 
+O Conceito de Normalização: Por que em análise de dados muitas vezes 
+ignoramos os valores extremos (o maior e o menor) para obter um resultado mais 
+fiel? 
+A Média Aparada remove os extremos para eliminar o "ruído" e focar na realidade 
+da maioria. Os motivos são: 
+Limpeza de Erros: Descarta falhas técnicas, erros de digitação ou eventos 
+irrepetíveis que distorcem o padrão previsível. 
+Foco na Tendência: Prioriza o "corpo" dos dados (massa crítica), ignorando as 
+caudas da curva onde a operação raramente reside. 
+Estabilidade Visual: Suaviza o gráfico, evitando saltos bruscos e alarmes falsos 
+causados por um único dia atípico. 
+Em suma: Ignoramos a exceção para entender a regra. 
+Lógica de Negócio: Pesquise o que é uma "Margem de Tolerância" em auditorias 
+financeiras. 
+  A Margem de Tolerância (também chamada de Materialidade ou Erro Tolerável) é 
+o valor     limite estabelecido por um auditor para aceitar distorções nos dados 
+sem que isso comprometa a validade de todo o relatório financeiro. 
+ 
+Os 3 Pilares da Margem de Tolerância: 
+Custo-Benefício da Investigação: Em auditorias, é humanamente impossível 
+conferir cada centavo de milhões de transações. A margem permite que o auditor 
+foque o esforço humano e computacional onde o risco é real. Se falta 1 real em 
+um bilhão, o custo de abrir uma investigação é maior que o próprio erro. 
+Materialidade (O Impacto na Decisão): Um erro é considerado "material" se ele for 
+capaz de mudar a decisão de quem lê o relatório (um investidor ou um gerente). 
