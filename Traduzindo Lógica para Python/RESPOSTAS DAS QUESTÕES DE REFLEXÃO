@@ -1,0 +1,15 @@
+########################
+####### RESPOSTAS DAS QUESTÕES DE REFLEXÃO #######
+1. Sobre Tipagem:
+A função input() no Python captura por padrão todas as entradas do usuário como uma sequência de caracteres, ou seja, do tipo Texto (String). Caso o desenvolvedor esqueça de realizar a conversão explícita (usando int() ou float()),
+o Python tentará realizar as operações matemáticas com esse texto.
+
+Como consequência, tentar fazer operações matemáticas como multiplicação, divisão ou subtração gerará um erro em tempo de execução (TypeError). No caso específico da soma (+), o Python realizará uma concatenação (junção de textos).
+Por exemplo, se a entrada for "10" e "5", em vez do cálculo resultar em 15, o resultado final seria "105".
+
+2. Sobre Estruturas:
+Para garantir que o laço de repetição conte de 1 até o limite exato desejado (incluindo o último valor), a sintaxe correta deve ser: range(1, meses + 1).
+
+O Python adota essa abordagem porque trabalha com intervalos meio-abertos (limite superior exclusivo). Na ciência da computação, essa lógica facilita o cálculo do tamanho de estruturas e índices baseados em zero.
+Portanto, em um range(início, fim), o parâmetro de início é inclusivo, mas o loop é interrompido imediatamente antes de atingir o valor de fim. Para processar o número exato especificado no pseudocódigo tradicional (que é inclusivo)
+precisamos somar 1 ao ponto de parada no Python.
