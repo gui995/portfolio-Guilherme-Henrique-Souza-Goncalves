@@ -16,6 +16,5 @@ O **Auditor Pro** não é apenas um script de soma; é uma engine completa de pr
 
 ## 🛠 Instalação e Uso
 
-1. **Clone & Go**:
-   ```bash
-   python main.py
+
+
