@@ -14,7 +14,6 @@ O **Auditor Pro** não é apenas um script de soma; é uma engine completa de pr
 *   **Exclusion Matrix**: Filtros inteligentes que removem ramos inteiros da árvore de custos.
 *   **Audit Decorator**: Wrapper de alta ordem que injeta telemetria e metadados em cada chamada.
 
-## 🛠 Instalação e Uso
 
 
 
